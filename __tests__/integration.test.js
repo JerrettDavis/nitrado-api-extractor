@@ -487,7 +487,7 @@ describe('Integration Tests', () => {
       // Create converter with test output directory
       converter = new NitradoAPIConverter({
         outputDir: testOutputDir,
-        apiDataUrl: 'https://doc.nitrado.net/api_data.js?v=1752345280167',
+        apiDataUrl: 'https://doc.nitrado.net/api_data.js',
         serverUrl: 'https://api.nitrado.net',
         apiTitle: 'Nitrado API Test',
         apiDescription: 'Test API',

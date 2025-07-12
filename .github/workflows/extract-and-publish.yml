@@ -37,7 +37,7 @@ jobs:
     
     - name: Extract API data
       env:
-        NITRADO_API_URL: ${{ secrets.NITRADO_API_URL || 'https://doc.nitrado.net/api_data.js?v=1752345280167' }}
+        NITRADO_API_URL: ${{ secrets.NITRADO_API_URL || 'https://doc.nitrado.net/api_data.js' }}
         NITRADO_OUTPUT_DIR: ./output
         NITRADO_API_TITLE: ${{ secrets.NITRADO_API_TITLE || 'Nitrado API' }}
         NITRADO_API_DESCRIPTION: ${{ secrets.NITRADO_API_DESCRIPTION || 'Official Nitrado API for managing game servers, domains, and other services' }}
@@ -91,7 +91,6 @@ jobs:
           Automated update of Nitrado API specification
           
           Generated from: ${{ env.NITRADO_API_URL }}
-          Generated at: ${{ github.run_time }}
           
           Files updated:
           - output/nitrado-api.json
@@ -105,7 +104,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        upload_url: ${{ steps.get_release.outputs.upload_url }}
         asset_path: output/nitrado-openapi.json
         asset_name: nitrado-openapi.json
         asset_content_type: application/json
