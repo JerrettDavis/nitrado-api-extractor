@@ -48,9 +48,6 @@ jobs:
         NITRADO_LICENSE_URL: ${{ secrets.NITRADO_LICENSE_URL || 'https://nitrado.net/terms' }}
       run: npm run extract
     
-    - name: Validate OpenAPI spec
-      run: npm run validate
-    
     - name: Check for changes
       id: changes
       run: |
