@@ -17,6 +17,9 @@ on:
 jobs:
   extract-and-publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
     
     steps:
     - uses: actions/checkout@v4
@@ -67,8 +70,6 @@ jobs:
     
     - name: Commit and push changes
       if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
@@ -79,12 +80,10 @@ jobs:
     - name: Create Release
       if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
       id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: api-spec-${{ github.run_number }}
-        release_name: API Specification Update ${{ github.run_number }}
+        name: API Specification Update ${{ github.run_number }}
         body: |
           Automated update of Nitrado API specification
           
@@ -93,16 +92,10 @@ jobs:
           Files updated:
           - output/nitrado-api.json
           - output/nitrado-openapi.json
+        files: |
+          output/nitrado-openapi.json
+          output/nitrado-api.json
         draft: false
         prerelease: false
-    
-    - name: Upload API Specification
-      if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
-      uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: output/nitrado-openapi.json
-        asset_name: nitrado-openapi.json
-        asset_content_type: application/json
