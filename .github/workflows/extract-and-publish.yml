@@ -52,7 +52,7 @@ jobs:
       id: changes
       run: |
         if [ -f output/nitrado-openapi.json ]; then
-          git add output/
+          git add -f output/
           if git diff --cached --quiet; then
             echo "No changes detected"
             echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -72,12 +72,13 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add output/
+        git add -f output/
         git commit -m "chore: update Nitrado API specification [skip ci]" || exit 0
         git push
     
     - name: Create Release
       if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+      id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -87,7 +88,7 @@ jobs:
         body: |
           Automated update of Nitrado API specification
           
-          Generated from: ${{ env.NITRADO_API_URL }}
+          Generated from: https://doc.nitrado.net/api_data.js
           
           Files updated:
           - output/nitrado-api.json
@@ -101,7 +102,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        upload_url: ${{ steps.get_release.outputs.upload_url }}
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: output/nitrado-openapi.json
         asset_name: nitrado-openapi.json
         asset_content_type: application/json
