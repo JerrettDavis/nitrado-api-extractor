@@ -6691,6 +6691,69 @@
       }
     },
     {
+      "type": "get",
+      "url": "/services/:id/gameservers/settings",
+      "title": "Settings - Read",
+      "name": "ReadSettings",
+      "group": "Gameserver",
+      "description": "<p>Return all known settings for the current game installed on the service.</p>",
+      "permission": [
+        {
+          "name": "ROLE_WEBINTERFACE_SETTINGS_READ"
+        }
+      ],
+      "version": "1.0.0",
+      "success": {
+        "examples": [
+          {
+            "title": "Success-Response",
+            "content": "HTTP/1.1 200 OK\n{\n   \"status\":\"success\",\n   \"data\":{\n      \"settings\":{\n         \"config\":{\n            \"mysetting\":\"true\"\n         }\n      }\n   }\n}",
+            "type": "json"
+          }
+        ]
+      },
+      "filename": "app/controllers/services/gameservers/settings_controller.rb",
+      "groupTitle": "Gameserver",
+      "header": {
+        "fields": {
+          "Header": [
+            {
+              "group": "Header",
+              "type": "String",
+              "optional": true,
+              "field": "Authorization",
+              "defaultValue": "Bearer NTFmNTQ5M2VjYjVkMzVkNWNkYjViYzIx........",
+              "description": "<p>Provide your access token here, alternatively you can pass it as GET Parameter.</p>"
+            }
+          ]
+        }
+      },
+      "error": {
+        "fields": {
+          "Error 4xx": [
+            {
+              "group": "Error 4xx",
+              "optional": false,
+              "field": "401",
+              "description": "<p>The provided access token is not valid (anymore).</p>"
+            },
+            {
+              "group": "Error 4xx",
+              "optional": false,
+              "field": "429",
+              "description": "<p>The rate limit has been exceeded. Please contact our support if you have a legit reason get a higher rate limit.</p>"
+            },
+            {
+              "group": "Error 4xx",
+              "optional": false,
+              "field": "503",
+              "description": "<p>Maintenance. API is currently not available. Please come back in a few minutes and try it again.</p>"
+            }
+          ]
+        }
+      }
+    },
+    {
       "type": "post",
       "url": "/services/:id/gameservers/restart",
       "title": "Restart",
