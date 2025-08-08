@@ -13986,7 +13986,7 @@
               "type": "String",
               "optional": true,
               "field": "autoextend_payment_method_id",
-              "description": "<p>The stored payment method ID to use for extending, only for payment-service-API payments</p>"
+              "description": "<p>The stored payment method ID prefixed with the payment method, only for payment-service-API payments, e.g. ps_card_sm_...</p>"
             },
             {
               "group": "Parameter",
