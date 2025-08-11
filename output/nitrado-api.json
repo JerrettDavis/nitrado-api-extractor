@@ -2587,6 +2587,12 @@
       ],
       "name": "Featured_Modded_Maps",
       "group": "Game_Arksa",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "version": "1.0.0",
       "success": {
         "examples": [
@@ -2650,6 +2656,12 @@
       ],
       "name": "Generate_ARK_cluster_id",
       "group": "Game_Arksa",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "version": "1.0.0",
       "success": {
         "examples": [
@@ -2713,6 +2725,12 @@
       ],
       "name": "Generate_ARK_cluster_id",
       "group": "Game_Arkse",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "version": "1.0.0",
       "success": {
         "examples": [
@@ -2770,6 +2788,12 @@
       "title": "Get Maps",
       "name": "Get_Maps",
       "group": "Game_Atlas",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "description": "<p>Returns a list of predefined maps to choose from.</p>",
       "permission": [
         {
@@ -2840,6 +2864,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -2903,6 +2933,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -2993,6 +3029,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -3076,6 +3118,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -3159,6 +3207,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -3243,6 +3297,12 @@
       "name": "Details",
       "group": "Game_CoreKeeper",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -3306,6 +3366,12 @@
       "name": "LastoasisUseridentifier",
       "group": "Game_Lastoasis",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -3389,6 +3455,12 @@
       "name": "LastoasisclassicUseridentifier",
       "group": "Game_Lastoasisclassic",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -3466,6 +3538,12 @@
       "name": "Details",
       "group": "Game_Minecraft",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -3528,6 +3606,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -3603,6 +3687,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -3707,6 +3797,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -3879,6 +3975,12 @@
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "version": "1.0.0",
       "success": {
         "examples": [
@@ -3939,6 +4041,12 @@
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "version": "1.0.0",
@@ -4004,6 +4112,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -4107,6 +4221,12 @@
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "version": "1.0.0",
       "success": {
         "examples": [
@@ -4170,6 +4290,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -4245,6 +4371,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -4322,6 +4454,12 @@
       "name": "Details",
       "group": "Game_Valheim",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -4498,6 +4636,12 @@
           "name": "ROLE_WEBINTERFACE_BACKUPS_READ"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -4561,6 +4705,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE, SERVICE_STATUS_SUSPENDED\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -4638,6 +4788,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE, SERVICE_STATUS_SUSPENDED\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -4734,6 +4890,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE, SERVICE_STATUS_SUSPENDED\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -4790,6 +4952,12 @@
       "title": "Package - Uninstallation",
       "description": "<p>Triggers a package uninstallation</p>",
       "group": "Gameserver",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -4833,6 +5001,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -4891,6 +5065,12 @@
       "name": "Details",
       "group": "Gameserver",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE, SERVICE_STATUS_SUSPENDED\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -4953,6 +5133,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5034,6 +5220,12 @@
           "name": "ROLE_WEBINTERFACE_FILEBROWSER_READ"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "version": "1.0.0",
       "success": {
         "examples": [
@@ -5100,6 +5292,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5199,6 +5397,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5281,6 +5485,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5356,6 +5566,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5449,6 +5665,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5541,6 +5763,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5637,6 +5865,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5735,6 +5969,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5810,6 +6050,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -5888,6 +6134,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6035,6 +6287,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6114,6 +6372,12 @@
       "permission": [
         {
           "name": "ROLE_GAMESERVER_CHANGE_GAME"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "version": "1.0.0",
@@ -6198,12 +6462,18 @@
       "type": "get",
       "url": "/services/:id/gameservers/games",
       "title": "Game - List",
-      "description": "<p>This is a list will all supported games for your Server.</p> <p>If you like to see which games are available at Nitrado.net , please refer to the &quot;Full Game list&quot;.</p>",
+      "description": "<p>This is a list will all supported games for your Server.</p> <p>The service must be active.</p> <p>If you like to see which games are available at Nitrado.net , please refer to the &quot;Full Game list&quot;.</p>",
       "name": "GameserverGameList",
       "group": "Gameserver",
       "permission": [
         {
           "name": "ROLE_GAMESERVER_CHANGE_GAME"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "version": "1.0.0",
@@ -6269,6 +6539,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6345,6 +6621,12 @@
       "title": "Package - List",
       "description": "<p>This is a list will all supported packages by service game</p>",
       "group": "Gameserver",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -6371,6 +6653,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6453,6 +6741,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6537,6 +6831,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6606,6 +6906,12 @@
       "title": "Package - Installation",
       "description": "<p>Triggers a package installation</p>",
       "group": "Gameserver",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6651,6 +6957,12 @@
       "title": "Package - Reinstallation",
       "description": "<p>Triggers a package reinstallation</p>",
       "group": "Gameserver",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6765,6 +7077,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -6874,6 +7192,12 @@
           "name": "ROLE_WEBINTERFACE_BACKUPS_WRITE"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -6963,6 +7287,12 @@
           "name": "ROLE_WEBINTERFACE_BACKUPS_WRITE"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -7029,6 +7359,12 @@
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "version": "1.0.0",
@@ -7115,6 +7451,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -7190,6 +7532,12 @@
         }
       },
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -7259,6 +7607,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -7322,6 +7676,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -7384,6 +7744,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -7441,6 +7807,12 @@
       "name": "Stats",
       "group": "Gameserver",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -7517,6 +7889,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -7606,6 +7984,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -7703,6 +8087,12 @@
       "name": "restore_possible",
       "group": "Gameserver",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -9488,6 +9878,12 @@
           "name": "ROLE_OWNER"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "for switch + extend: SERVICE_STATUS_ACTIVE, SERVICE_STATUS_SUSPENDED\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -10169,6 +10565,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -10251,6 +10653,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -10333,6 +10741,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -10415,6 +10829,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -10477,6 +10897,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -10535,6 +10961,12 @@
       "group": "Player_Management",
       "description": "<p>Return a list of player actions. The result depends of the capabilities of the game itself. The lists can be used to initiate actions on a specific players. If the game does not have this feature, an empty array will be returned, otherwise a list of strings, representing the names of the actions. The player_id_type gives the type of the player identifiers. This can be used to adjust the UI or validate user input. Base URI for all actions is /services/:id/gameservers/games/players/:player_id</p>",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -10593,6 +11025,12 @@
       "group": "Player_Management",
       "description": "<p>Return a list of player lists. The result depends of the capabilities of the game itself. The lists can be used to control permissions and other player related settings. If the game does not have this feature, an empty array will be returned, otherwise a list of strings, representing the names of the lists. The player_id_type gives the type of the player identifiers. This can be used to adjust the UI or validate user input.</p>",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -10656,6 +11094,12 @@
       ],
       "description": "<p>List players on the server. The returned list contains an array of players with their ingame name and an ID. The given ID is always unique and should be used to identify the player. The player name itself is not unique and can be changed over time (changing name ingame). So always use the ID to identify the player. This ID can be an internal ID or some other kind of ID from the game. For minecraft, it is the Minecraft UUID, for other games it will be the Steam-ID or some other ID to get additional information for that player (avatar image, stats, ...). If the player ID can not be made public, it will be masked (type=internal).</p>",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -10718,6 +11162,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -10780,6 +11230,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -10862,6 +11318,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -10944,6 +11406,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -11026,6 +11494,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -11108,6 +11582,12 @@
         }
       ],
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -11443,6 +11923,12 @@
           "name": "ROLE_OWNER"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "for extend: SERVICE_STATUS_ACTIVE, Service::SERVICE_STATUS_SUSPENDED",
+          "type": "json"
+        }
+      ],
       "filename": "app/controllers/orders/pricing_controller.rb",
       "groupTitle": "Pricing",
       "parameter": {
@@ -11514,6 +12000,12 @@
       "permission": [
         {
           "name": "ROLE_OWNER"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "for extend: SERVICE_STATUS_ACTIVE, Service::SERVICE_STATUS_SUSPENDED",
+          "type": "json"
         }
       ],
       "filename": "app/controllers/orders/pricing_controller.rb",
@@ -12985,6 +13477,12 @@
       "name": "Change_subdomain",
       "group": "Service",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_OWNER"
@@ -13080,6 +13578,12 @@
           "name": "ROLE_OWNER"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_SUSPENDED\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -13143,6 +13647,12 @@
           "name": "ROLE_OWNER"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -13200,6 +13710,12 @@
       "name": "Details",
       "group": "Service",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ALL\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -13258,6 +13774,12 @@
       "name": "GetKnowledgeBaseService",
       "group": "Service",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ALL\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_OWNER"
@@ -13339,6 +13861,12 @@
           "name": "ROLE_OWNER"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -13400,6 +13928,12 @@
       "permission": [
         {
           "name": "ROLE_OWNER"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "success": {
@@ -13518,6 +14052,12 @@
       "group": "Service",
       "version": "1.0.0",
       "description": "<p>Returns an array of active notifications relevant for the given service.</p>",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ALL\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -13590,6 +14130,12 @@
       "group": "Service",
       "version": "1.0.0",
       "description": "<p>Returns active notifications for all given service IDs</p>",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ALL\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -13679,6 +14225,12 @@
           "name": "ROLE_OWNER"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ALL\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -13739,6 +14291,12 @@
       "permission": [
         {
           "name": "ROLE_OWNER"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ALL\n",
+          "type": "json"
         }
       ],
       "success": {
@@ -13802,6 +14360,12 @@
       "permission": [
         {
           "name": "ROLE_OWNER, ALLOW_CANCEL_GAMESERVER"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "parameter": {
@@ -13900,6 +14464,12 @@
           ]
         }
       },
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -13960,6 +14530,12 @@
       "permission": [
         {
           "name": "ROLE_OWNER"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ALL\n",
+          "type": "json"
         }
       ],
       "parameter": {
@@ -14079,6 +14655,12 @@
       "permission": [
         {
           "name": "ROLE_OWNER"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "success": {
@@ -14387,6 +14969,12 @@
           "name": "ROLE_WEBINTERFACE_SCHEDULED_RESTART_WRITE"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -14511,6 +15099,12 @@
           "name": "ROLE_WEBINTERFACE_SCHEDULED_RESTART_WRITE"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -14572,6 +15166,12 @@
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_SCHEDULED_RESTART_READ"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "success": {
@@ -14636,6 +15236,12 @@
           "name": "ROLE_WEBINTERFACE_SCHEDULED_RESTART_READ"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -14696,6 +15302,12 @@
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_SCHEDULED_RESTART_WRITE"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "parameter": {
@@ -14837,6 +15449,12 @@
       "name": "BackupCreate",
       "group": "Teamspeak_3",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_BACKUPS_WRITE"
@@ -14899,6 +15517,12 @@
       "name": "BackupDelete",
       "group": "Teamspeak_3",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_BACKUPS_WRITE"
@@ -14962,6 +15586,12 @@
       "name": "BackupDownload",
       "group": "Teamspeak_3",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_BACKUPS_READ"
@@ -15024,6 +15654,12 @@
       "name": "BackupRestore",
       "group": "Teamspeak_3",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_BACKUPS_WRITE"
@@ -15087,6 +15723,12 @@
       "name": "BackupUpload",
       "group": "Teamspeak_3",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_BACKUPS_WRITE"
@@ -15149,6 +15791,12 @@
       "name": "TokenCreate",
       "group": "Teamspeak_3",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
@@ -15224,6 +15872,12 @@
       "name": "TokenDelete",
       "group": "Teamspeak_3",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
@@ -15310,6 +15964,12 @@
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "parameter": {
@@ -15401,6 +16061,12 @@
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
         }
       ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [
@@ -15481,6 +16147,12 @@
       "permission": [
         {
           "name": "ROLE_WEBINTERFACE_GENERAL_CONTROL"
+        }
+      ],
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
         }
       ],
       "success": {
@@ -17231,6 +17903,12 @@
       "name": "Details",
       "group": "Voiceserver",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -17288,6 +17966,12 @@
       "name": "Reinstall",
       "group": "Voiceserver",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -17345,6 +18029,12 @@
       "name": "Restart",
       "group": "Voiceserver",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -17402,6 +18092,12 @@
       "name": "Stop",
       "group": "Voiceserver",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "success": {
         "examples": [
           {
@@ -17460,6 +18156,12 @@
       "name": "Update",
       "group": "Voiceserver",
       "version": "1.0.0",
+      "servicestatus": [
+        {
+          "content": "SERVICE_STATUS_ACTIVE\n",
+          "type": "json"
+        }
+      ],
       "parameter": {
         "fields": {
           "Parameter": [

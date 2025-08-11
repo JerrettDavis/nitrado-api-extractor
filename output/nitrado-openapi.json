@@ -7961,7 +7961,7 @@
     "/services/{id}/gameservers/games": {
       "get": {
         "summary": "Game - List",
-        "description": "<p>This is a list will all supported games for your Server.</p> <p>If you like to see which games are available at Nitrado.net , please refer to the &quot;Full Game list&quot;.</p>",
+        "description": "<p>This is a list will all supported games for your Server.</p> <p>The service must be active.</p> <p>If you like to see which games are available at Nitrado.net , please refer to the &quot;Full Game list&quot;.</p>",
         "operationId": "GameserverServicesIdGameserversGamesGameserverGameList",
         "tags": [
           "Gameserver"
