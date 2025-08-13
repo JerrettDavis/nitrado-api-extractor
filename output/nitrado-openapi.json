@@ -12010,6 +12010,15 @@
             "description": "<p>Provide the file name of the Modpack.</p>"
           },
           {
+            "name": "ignore_slot_limits",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "description": "<p>(for switch) If true then ignore the min-slot and max-slot limitations for the installed game. Might end in a service that can not be used with the installed game</p>"
+          },
+          {
             "name": "location",
             "in": "query",
             "required": true,

@@ -9939,6 +9939,14 @@
             },
             {
               "group": "Parameter",
+              "type": "Boolean",
+              "optional": true,
+              "field": "ignore_slot_limits",
+              "defaultValue": "false",
+              "description": "<p>(for switch) If true then ignore the min-slot and max-slot limitations for the installed game. Might end in a service that can not be used with the installed game</p>"
+            },
+            {
+              "group": "Parameter",
               "type": "Number",
               "optional": false,
               "field": "location",
