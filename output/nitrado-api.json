@@ -4513,8 +4513,8 @@
     {
       "type": "get",
       "url": "/game/list",
-      "title": "Get list of the games info",
-      "description": "<p>Returns a list for the games info</p>",
+      "title": "Get list of games with details (unauthenticated)",
+      "description": "<p>Returns a list of games with additional information. No authentication necessary.</p>",
       "parameter": {
         "fields": {
           "Parameter": [
@@ -4547,14 +4547,14 @@
     {
       "type": "get",
       "url": "/game/list_auth",
-      "title": "Get list of the games info",
-      "description": "<p>Returns a list for the games info</p>",
+      "title": "Get list of games with details (authenticated)",
+      "description": "<p>Returns a list of games with additional information. Requires authentication.</p>",
       "parameter": {
         "fields": {
           "Parameter": [
             {
               "group": "Parameter",
-              "type": "Boolean",
+              "type": "String",
               "optional": true,
               "field": "display_mode",
               "defaultValue": "public",

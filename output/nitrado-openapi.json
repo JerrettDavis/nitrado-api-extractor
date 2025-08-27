@@ -5571,8 +5571,8 @@
     },
     "/game/list": {
       "get": {
-        "summary": "Get list of the games info",
-        "description": "<p>Returns a list for the games info</p>",
+        "summary": "Get list of games with details (unauthenticated)",
+        "description": "<p>Returns a list of games with additional information. No authentication necessary.</p>",
         "operationId": "GameGameListgamelist",
         "tags": [
           "Game"
@@ -5621,8 +5621,8 @@
     },
     "/game/list_auth": {
       "get": {
-        "summary": "Get list of the games info",
-        "description": "<p>Returns a list for the games info</p>",
+        "summary": "Get list of games with details (authenticated)",
+        "description": "<p>Returns a list of games with additional information. Requires authentication.</p>",
         "operationId": "GameGameListAuthgamelistauth",
         "tags": [
           "Game"
@@ -5633,7 +5633,7 @@
             "in": "query",
             "required": false,
             "schema": {
-              "type": "boolean"
+              "type": "string"
             },
             "description": "<p>Define which data should be displayed. One of public|hidden. &quot;hidden&quot; only works for admins.</p>"
           },
