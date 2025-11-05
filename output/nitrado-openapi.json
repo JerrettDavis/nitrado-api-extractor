@@ -16946,7 +16946,7 @@
     "/services/{id}/auto_extend": {
       "get": {
         "summary": "Auto-Extend Information",
-        "description": "<p>The looses_benefits attribute will be true if the service will use a different price revision (price might be unchanged) for auto extensions. Payment-Methods from Payment-Service return the selected_autoextend_payment_method_id and the stored_autoextend_payment_method_ids.</p>",
+        "description": "<p>The looses_benefits attribute will be true if the service will use a different price revision (price might be unchanged) for auto extensions. Will have grandfathered_price set to the price of the services revision if looses_benefits is true, otherwise set to null. Payment-Methods from Payment-Service return the selected_autoextend_payment_method_id and the stored_autoextend_payment_method_ids.</p>",
         "operationId": "ServiceServicesIdAutoExtendRequestAutoExtendInformation",
         "tags": [
           "Service"
