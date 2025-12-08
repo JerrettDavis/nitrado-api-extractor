@@ -13772,7 +13772,7 @@
     "/pricing/gameserver": {
       "get": {
         "summary": "Gameserver",
-        "description": "",
+        "description": "<p>Returns pricing information with rental times, dimensions, prices, custom slot labels and minimum servicetypes per location &amp; game.</p>",
         "operationId": "PricingGameserver",
         "tags": [
           "Prices"
