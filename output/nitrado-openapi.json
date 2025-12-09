@@ -14035,6 +14035,15 @@
               "type": "string"
             },
             "description": "<p>Sortings. One or multiple of: top,nameAsc,nameDesc,latestgameupdate,recentlyadded,spotlight</p>"
+          },
+          {
+            "name": "include_orderlocked",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            },
+            "description": "<p>Include orderlocked games.</p>"
           }
         ],
         "responses": {
