@@ -12295,15 +12295,6 @@
             "description": "<p>2 Digits ISO country code for charge.</p>"
           },
           {
-            "name": "bank",
-            "in": "query",
-            "required": false,
-            "schema": {
-              "type": "string"
-            },
-            "description": "<p>Only needed for payment method gc_ideal</p>"
-          },
-          {
             "name": "tokenize",
             "in": "query",
             "required": false,
