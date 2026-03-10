@@ -7067,7 +7067,7 @@
                 "type": "string"
               }
             },
-            "description": "<p>Array with File paths</p>"
+            "description": "<p>Array with File paths, optionally with numeric keys if send as hash</p>"
           },
           {
             "name": "Authorization",

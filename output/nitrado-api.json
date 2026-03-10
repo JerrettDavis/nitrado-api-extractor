@@ -5684,7 +5684,7 @@
               "type": "Array",
               "optional": false,
               "field": "files",
-              "description": "<p>Array with File paths</p>"
+              "description": "<p>Array with File paths, optionally with numeric keys if send as hash</p>"
             }
           ]
         }
