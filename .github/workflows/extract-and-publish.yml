@@ -22,12 +22,12 @@ jobs:
       actions: read
     
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Use Node.js 18.x
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v6
       with:
         node-version: 18.x
         cache: 'npm'
