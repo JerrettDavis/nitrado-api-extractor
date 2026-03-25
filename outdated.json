@@ -1,0 +1,58 @@
+{
+  "@eslint/js": {
+    "current": "8.57.1",
+    "wanted": "8.57.1",
+    "latest": "9.39.4",
+    "dependent": "nitrado-api-extractor",
+    "location": "/home/runner/work/nitrado-api-extractor/nitrado-api-extractor/node_modules/@eslint/js"
+  },
+  "axios": {
+    "current": "1.10.0",
+    "wanted": "1.13.6",
+    "latest": "1.13.6",
+    "dependent": "nitrado-api-extractor",
+    "location": "/home/runner/work/nitrado-api-extractor/nitrado-api-extractor/node_modules/axios"
+  },
+  "commander": {
+    "current": "11.1.0",
+    "wanted": "11.1.0",
+    "latest": "13.1.0",
+    "dependent": "nitrado-api-extractor",
+    "location": "/home/runner/work/nitrado-api-extractor/nitrado-api-extractor/node_modules/commander"
+  },
+  "dotenv": {
+    "current": "16.6.1",
+    "wanted": "16.6.1",
+    "latest": "17.3.1",
+    "dependent": "nitrado-api-extractor",
+    "location": "/home/runner/work/nitrado-api-extractor/nitrado-api-extractor/node_modules/dotenv"
+  },
+  "eslint": {
+    "current": "8.57.1",
+    "wanted": "8.57.1",
+    "latest": "9.39.4",
+    "dependent": "nitrado-api-extractor",
+    "location": "/home/runner/work/nitrado-api-extractor/nitrado-api-extractor/node_modules/eslint"
+  },
+  "eslint-plugin-jest": {
+    "current": "27.9.0",
+    "wanted": "27.9.0",
+    "latest": "28.14.0",
+    "dependent": "nitrado-api-extractor",
+    "location": "/home/runner/work/nitrado-api-extractor/nitrado-api-extractor/node_modules/eslint-plugin-jest"
+  },
+  "jest": {
+    "current": "29.7.0",
+    "wanted": "29.7.0",
+    "latest": "30.3.0",
+    "dependent": "nitrado-api-extractor",
+    "location": "/home/runner/work/nitrado-api-extractor/nitrado-api-extractor/node_modules/jest"
+  },
+  "nock": {
+    "current": "13.5.6",
+    "wanted": "13.5.6",
+    "latest": "14.0.11",
+    "dependent": "nitrado-api-extractor",
+    "location": "/home/runner/work/nitrado-api-extractor/nitrado-api-extractor/node_modules/nock"
+  }
+}
